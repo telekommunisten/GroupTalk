@@ -1,0 +1,12 @@
+{
+  "name": "Group Talk",
+  "authors": ["Brennan Novak <hi@brennannovak.com>"],
+  "paths": {
+    "data": "/home/user/GroupTalk/data/"
+  },
+  "prefix": "data-",
+  "index": "toc",
+  "datasets": [
+    "group-talk"
+  ]
+}

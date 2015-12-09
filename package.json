@@ -1,0 +1,39 @@
+{
+  "name": "group-talk",
+  "version": "0.0.1",
+  "description": "A simple HTML5 search interface for finding places on the decentralized web where groups are talking",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/telekommunisten/GroupTalk.git"
+  },
+  "keywords": [
+    "mailpile",
+    "email",
+    "email",
+    "client"
+  ],
+  "author": "Brennan Novak",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/telekommunisten/GroupTalk/issues"
+  },
+  "homepage": "https://github.com/telekommunisten/GroupTalk",
+  "dependencies": {
+    "argv": "0.0.2",
+    "csv": "*",
+    "datapackage-query": "^0.1.0",
+    "es6-promise": "^2.0.1",
+    "fs": "*",
+    "good": "^5.1.2",
+    "good-console": "^4.1.0",
+    "hapi": "^8.4.0",
+    "hapi-json-view": "^2.1.0",
+    "moment": "^2.9.0",
+    "underscore": "*"
+  },
+  "devDependencies": {}
+}
