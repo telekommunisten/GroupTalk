@@ -1,0 +1,62 @@
+{
+  "name": "data-group-talk",
+  "title": "GroupTalk",
+  "homepage": "",
+  "version": "0.1.0",
+  "license": "PDDL-1.0",
+  "resources": [
+    {
+      "name": "group-talk",
+      "path": "group-talk.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "bytes": 516,
+      "schema": {
+        "fields": [
+          {
+            "name": "type",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "title",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "description",
+            "type": "number",
+            "description": ""
+          },
+          {
+            "name": "public",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "join_address",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "info_address",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "picture",
+            "type": "string",
+            "description": ""
+          },
+          {
+            "name": "keywords",
+            "type": "array",
+            "description": ""
+          }
+        ]
+      }
+    }
+  ],
+  "description": "",
+  "repository": "https://github.com/digitalfreedom/data-grouptalk.git"
+}
